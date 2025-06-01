@@ -1,8 +1,8 @@
-from textnode import TextNode
+from textnode import TextNode, TextType
 
 
 def main():
-    tmp = TextNode("fker text", "linkkkkkkkkkkkkk", "amster")
+    tmp = TextNode("fker text", TextType.LINK, "amster")
     print(tmp)
 
 
